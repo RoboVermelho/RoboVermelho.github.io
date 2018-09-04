@@ -5,7 +5,7 @@ published: false
 	Porém o que algumas pessoas não sabem é que esta técnica também pode ser utilizada em Javascript.<br />
 Como os objetos do JS não apenas conjuntos de elementos, que podem inclusive ser outros objetos, podemos criar uma estrutura de namespaces de forma simples seguindo o formato:
 
-
+```javascript
 	<script>
     window.criaNamespace = function(str) {
     	/**
@@ -29,6 +29,7 @@ Como os objetos do JS não apenas conjuntos de elementos, que podem inclusive se
         }
     }
     </script>
+```
     Nâo há necessidade de retornar o namespace criado, uma vez que todos irão partir do objeto window que é global. Um fator interessante a ser levado em consideração no código, é a variável chk. No nosso código, não queremos gerar o mesmo problema que pode acontecer quando criamos namespaces manualmente, que é: você cria um namespace com vários métodos e depois em outro script, você define novamente o namespace e perde todos os métodos que foram implementados. 
     Para que isso não aconteça, temos que checar se um dos elementos da string do namespace já existe no nosso objeto window. E é nessa hora que o javascript pode dar algumas dores de cabeça: como checar se um objeto é um elemento object?
     Primeiramente, podemos pensar da forma mais simples: o método build in: typeof, que retorna exatamente o tipo da variável. Mas ai temos o problema com os seguintes testes:
