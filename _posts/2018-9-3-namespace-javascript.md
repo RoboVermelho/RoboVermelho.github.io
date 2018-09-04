@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Utilizando Namespaces no Javascript!
 ---
-	Conforme o desenvolvimento se torna mais complexo, surge a necessidade de agruparmos as funcionalidades do código em pacotes. 
+Conforme o desenvolvimento se torna mais complexo, surge a necessidade de agruparmos as funcionalidades do código em pacotes. 
 	
 Conforme o desenvolvimento se torna mais complexo, surge a necessidade de agruparmos as funcionalidades do código em pacotes. Inclusive criando subpacotes relacionados, chamados namespaces, muito conhecidos em linguagens como Python e Java. Porém o que algumas pessoas não sabem é que esta técnica também pode ser utilizada em Javascript.
 Como os objetos do JS não apenas conjuntos de elementos, que podem inclusive ser outros objetos, podemos criar uma estrutura de namespaces de forma simples seguindo o formato:
