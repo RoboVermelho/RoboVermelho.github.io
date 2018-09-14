@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+comments: true
 title: Utilizando Namespaces no Javascript!
 excerpt_separator: <!--more-->
 ---
