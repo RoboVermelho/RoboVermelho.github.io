@@ -94,6 +94,11 @@ ol ul, ul ol, ul ul, ol ol {
   margin: 0;
 }
 
+p {
+	text-indent: 50px;
+	text-align:justify;
+}
+
 ul ul, ol ul {
   list-style-type: circle;
 }
@@ -252,6 +257,13 @@ nav {
 }
 
 .post {
+	background: #f3f3f3;
+	padding: 20px;
+	
+	h1 {
+		text-align: center;
+	}
+
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
