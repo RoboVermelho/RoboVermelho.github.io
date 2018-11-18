@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tem Hacker na obra!
-comments: true
+comments: true 
 categories: [security, segurança, hardware]
 tags: [telecrane,wi-fi,exploit]
 excerpt_separator: <!--more-->
