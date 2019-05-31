@@ -1,11 +1,11 @@
 ---
-published: true 
+published: true
 layout: post
 comments: true
-title: Concurso público: edital pra vida
+title: Concurso público - edital pra vida
 categories: [carreira]
-tags: [concurso publico, estudo, carreira
-chamada: Spies! Spies everywhere!
+tags: [concurso publico, estudo, carreira]
+chamada: Mais do que um cargo, uma carreira
 excerpt_separator: <!--more-->
 ---
 Concurso público: edital pra vida
